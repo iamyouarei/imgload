@@ -1,7 +1,7 @@
 <?php
 $secret_key = "I8Ogg5hn28wWHqu"; //Set this as your secret key, to prevent others uploading to your server.
 $sharexdir = "img/"; //This is your file dir, also the link..
-$domain_url = 'https://i.hayn.me/'; //Add an S at the end of HTTP if you have a SSL certificate.
+$domain_url = 'http://i.hayn.me/'; //Add an S at the end of HTTP if you have a SSL certificate.
 $lengthofstring = 10; //Length of the file name
 
 function RandomString($length) {
